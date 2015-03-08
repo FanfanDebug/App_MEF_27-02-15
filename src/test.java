@@ -7,8 +7,8 @@ import com.gargoylesoftware.htmlunit.html.HtmlPage;
 public class test {
 
 	public static void main(String[] args) {
-		String id = "Maelios";
-		String pwd = "M@elios6";
+		String id = "MEF";
+		String pwd = "MEF@27215";
 		// TODO Auto-generated method stub
 		OSession os = new OSession(id, pwd, "s128-fr.ogame.gameforge.com");
 		HtmlPage page = os.log();
