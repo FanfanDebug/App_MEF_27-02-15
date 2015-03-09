@@ -12,8 +12,7 @@ public class test {
 		// TODO Auto-generated method stub
 		OSession os = new OSession(id, pwd, "s128-fr.ogame.gameforge.com");
 		HtmlPage page = os.log();
-		OParser secondPage = new OParser(); 
-		String web ="<input type='hidden' name='token' value='6a7a0ff86a819da0077a922505f80c3b' /> >";//page.asXml()
+		OParser secondPage = new OParser();
 		
 		
 		try {
