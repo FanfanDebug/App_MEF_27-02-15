@@ -17,7 +17,7 @@ public class test {
 		
 		try {
 			//System.out.println(os.getDefencePage());
-			System.out.println(secondPage.getToken(os.getDefencePage().asXml()));
+			System.out.println(OParser.getToken(os.getDefencePage().asXml()));
 		} catch (FailingHttpStatusCodeException | IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
