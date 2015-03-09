@@ -12,7 +12,7 @@ public class test {
 		// TODO Auto-generated method stub
 		OSession os = new OSession(id, pwd, "s128-fr.ogame.gameforge.com");
 		HtmlPage page = os.log();
-		OParser secondPage = new OParser();
+		OParser secondPage = new OParser(); 
 		
 		
 		try {
